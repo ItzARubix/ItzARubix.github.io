@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE","sourcesContent":[".current {\r\n  color: #4b8500;\r\n}\r\n\r\n.default {\r\n  color: blue;\r\n}"],"file":"styles.css"}
