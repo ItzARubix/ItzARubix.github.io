@@ -29,15 +29,26 @@
     .dropdown {
       margin: 20px 0;
     }
-    .dropdown h2 {
+    .dropdown-header {
       cursor: pointer;
       margin: 0;
       padding: 10px;
       background: #f2f2f2;
       border: 1px solid #ccc;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
+      text-align: center;
+    }
+    .dropdown-header h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.7em; /* Adjust this value to make the text larger or smaller */
+    }
+    .dropdown-header iframe {
+      margin-top: 10px; /* Add margin to create whitespace */
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 2); /* Add drop shadow */
     }
     .dropdown-content {
       display: none;
@@ -59,7 +70,7 @@
   </style>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      const dropdownHeaders = document.querySelectorAll(".dropdown h2");
+      const dropdownHeaders = document.querySelectorAll(".dropdown-header");
       dropdownHeaders.forEach(header => {
         header.addEventListener("click", function() {
           const content = this.nextElementSibling;
@@ -88,14 +99,15 @@
 
 
 
+
   <div class="dropdown">
-    <h2>
-      <span>1: Foreverred Trueskip (Lunar Heart)</span>
+    <div class="dropdown-header">
+      <h2>1: Foreverred Trueskip (Lunar Heart)</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/gSYM2I1XDic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/gSYM2I1XDic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -120,13 +132,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>2: Spikes (From "Tasonleste")</span>
+    <div class="dropdown-header">
+      <h2>2: Spikes (From "Tasonleste")</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/70JbwjQ3fmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/70JbwjQ3fmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -149,13 +161,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>3: Infinite Hall of Pain</span>
+    <div class="dropdown-header">
+      <h2>3: Infinite Hall of Pain</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/5dl-DIgaJ-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/5dl-DIgaJ-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -188,13 +200,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>4: Everred Trueskip (Moon Reddish)</span>
+    <div class="dropdown-header">
+      <h2>4: Everred Trueskip (Moon Reddish)</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/gAr3Lsi7nl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/gAr3Lsi7nl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -229,13 +241,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>5: Spiral</span>
+    <div class="dropdown-header">
+      <h2>5: Spiral</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/ha8smGWFnvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/ha8smGWFnvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -258,13 +270,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>6: Foreverred Gemskip (Golden Heart)</span>
+    <div class="dropdown-header">
+      <h2>6: Foreverred Gemskip (Golden Heart)</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/fezcAH3Zj_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/fezcAH3Zj_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -294,13 +306,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>7: Everred Gemskip (Golden Reddish)</span>
+    <div class="dropdown-header">
+      <h2>7: Everred Gemskip (Golden Reddish)</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/cYoyAN4gON8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/cYoyAN4gON8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -340,13 +352,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>8: UNKNOWN</span>
+    <div class="dropdown-header">
+      <h2>8: UNKNOWN</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/KQhCOXFKNMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/KQhCOXFKNMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -374,13 +386,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>9: Unnerfed S</span>
+    <div class="dropdown-header">
+      <h2>9: Unnerfed S</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/NrYDqTzjPNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/NrYDqTzjPNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
@@ -418,13 +430,13 @@
   </div>
 
   <div class="dropdown">
-    <h2>
-      <span>10: Farewell (From "CelesteTech Teach" by Rio)</span>
+    <div class="dropdown-header">
+      <h2>10: Farewell (From "CelesteTech Teach" by Rio)</h2>
       
         
-        <iframe width="200" height="113" src="https://www.youtube.com/embed/Ckzgtnwkw6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/Ckzgtnwkw6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-    </h2>
+    </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
