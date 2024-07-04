@@ -1,30 +1,14 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>The Celeste Classic Deathless List!</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-<div align="center">
-  <nav>
-  
-    <a href="/" class="default" >Home</a>
-  
-    <a href="/blog.html" class="default" >Blog</a>
-  
-    <a href="/CCDL/CCDL.html"  class="current">CCDL</a>
-  
-</nav>
-    </div>
-<div class="inner">
+---
+layout: default
+title: The Celeste Classic Deathless List!
+---
 
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Celeste Classic Deathless List!</title>
+  <title>{{ page.title }}</title>
   <style>
     .dropdown {
       margin: 20px 0;
@@ -97,386 +81,36 @@
 <h3>(These are all dropdown menus! Click any mod to see more information!)</h3>
 
 
+{% assign items = site.data.CCDLItems %}
 
-
-
+{% for item in items %}
   <div class="dropdown">
     <div class="dropdown-header">
-      <h2>1: Foreverred Trueskip (Lunar Heart)</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/gSYM2I1XDic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
+      <h2>{{ forloop.index }}: {{ item.name }}</h2>
+      {% if item.obtained_by.size > 0 %}
+        {% assign first_proof_video = item.obtained_by[0].proof_video %}
+        <iframe width="300" height="169" src="{{ first_proof_video | replace: 'watch?v=', 'embed/' }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      {% endif %}
     </div>
     <div class="dropdown-content">
       <h3>Requirements:</h3>
       <ul>
-        
-          <li>Complete Foreverred's Trueskip route by progressing to the right after opening the chest</li>
-        
-          <li>Reach True Summit and collect the Lunar Heart without dying</li>
-        
-          <li>You do not need to collect any other optional collectables</li>
-        
+        {% for requirement in item.requirements %}
+          <li>{{ requirement }}</li>
+        {% endfor %}
       </ul>
       <h3>Obtained by:</h3>
       <ul>
-        
+        {% for person in item.obtained_by %}
           <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=gSYM2I1XDic">Proof Video</a>
+            <strong>{{ person.name }}</strong>: 
+            <a href="{{ person.proof_video }}">Proof Video</a>
           </li>
-        
+        {% endfor %}
       </ul>
     </div>
   </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>2: Infinite Hall of Pain</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/5dl-DIgaJ-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete the first room of Infinite Hall of Pain from start to finish without dying</li>
-        
-          <li>You do not need to complete any other parts of Infinite Hall of Pain, but showing your completion time is preferred</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=5dl-DIgaJ-4">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Beeb</strong>: 
-            <a href="https://www.youtube.com/watch?v=5dl-DIgaJ-4">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Bacon</strong>: 
-            <a href="https://www.youtube.com/watch?v=XIdwpNOxzpA">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>3: Spikes (From "Tasonleste")</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/70JbwjQ3fmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete the room from Tasonleste labeled "Spikes" from start to finish without dying</li>
-        
-          <li>You do not need to complete any other parts of Tasonleste</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>FlyingPenguin</strong>: 
-            <a href="https://www.youtube.com/watch?v=70JbwjQ3fmQ">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=v9EMwpgyAbE">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>4: Everred Trueskip (Moon Reddish)</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/gAr3Lsi7nl4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete Everred's Trueskip route by exiting the first room without collecting the Gem</li>
-        
-          <li>Reach the end of the game without dying</li>
-        
-          <li>You do not need to collect any optional collectables</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>Akliant</strong>: 
-            <a href="https://www.youtube.com/watch?v=gAr3Lsi7nl4">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Meep</strong>: 
-            <a href="https://youtube.com/watch?v=ts2hrgoD3MU">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=rM4vHgfVU9Q">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>5: Spiral</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/ha8smGWFnvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete the first room of Spiral from start to finish without dying</li>
-        
-          <li>You do not need to complete any other parts of Spiral, but showing your completion time is preferred</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=ha8smGWFnvM">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>6: Foreverred Gemskip (Golden Heart)</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/fezcAH3Zj_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete Foreverred's Gemskip route by collecting the first Gem but skipping the second Gem</li>
-        
-          <li>Reach the end of the game without dying</li>
-        
-          <li>You do not need to collect any optional collectables</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=fezcAH3Zj_k">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Bacon</strong>: 
-            <a href="https://www.youtube.com/watch?v=7mo6UrYQmBk">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>7: Everred Gemskip (Golden Reddish)</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/cYoyAN4gON8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete Everred's Gemskip route by collecting the first Gem but skipping the second Gem</li>
-        
-          <li>Reach the end of the game without dying</li>
-        
-          <li>You do not need to collect any optional collectables</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>Gonen</strong>: 
-            <a href="https://www.youtube.com/watch?v=cYoyAN4gON8">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=ad7fxtvRpqY">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Akliant</strong>: 
-            <a href="https://www.youtube.com/watch?v=F4xDZhixdHg">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Bacon</strong>: 
-            <a href="https://www.youtube.com/watch?v=QFf5LdA44iI">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>8: UNKNOWN</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/KQhCOXFKNMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Reach the Flag in UNKNOWN from the start without dying</li>
-        
-          <li>You do not need to complete any other parts of UNKNOWN</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>ChillSpider/Nyl</strong>: 
-            <a href="https://www.youtube.com/watch?v=KQhCOXFKNMs">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Bacon</strong>: 
-            <a href="https://www.youtube.com/watch?v=QhVIY4QQwus">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=kHcGnRnJewM">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>9: Unnerfed S</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/NrYDqTzjPNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Reach the Flag in Unnerfed S from the start without dying</li>
-        
-          <li>You do not need to complete any other parts of Unnerfed S</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>FlyingPenguin</strong>: 
-            <a href="https://www.youtube.com/watch?v=NrYDqTzjPNo">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>ChillSpider/Nyl</strong>: 
-            <a href="https://www.youtube.com/watch?v=VUx9PeJ4ds0">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=DwwTs7noNPQ">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Bacon</strong>: 
-            <a href="https://www.youtube.com/watch?v=QhVIY4QQwus">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <div class="dropdown-header">
-      <h2>10: Farewell (From "CelesteTech Teach" by Rio)</h2>
-      
-        
-        <iframe width="300" height="169" src="https://www.youtube.com/embed/Ckzgtnwkw6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-    </div>
-    <div class="dropdown-content">
-      <h3>Requirements:</h3>
-      <ul>
-        
-          <li>Complete the room of CelesteTech Teach labelled "Farewell" from start to finish without dying</li>
-        
-          <li>You do not need to complete any other parts of CelesteTech Teach</li>
-        
-      </ul>
-      <h3>Obtained by:</h3>
-      <ul>
-        
-          <li>
-            <strong>LordSNEK</strong>: 
-            <a href="https://www.youtube.com/watch?v=Ckzgtnwkw6o">Proof Video</a>
-          </li>
-        
-          <li>
-            <strong>Bacon</strong>: 
-            <a href="https://www.youtube.com/watch?v=QhVIY4QQwus">Proof Video</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
+{% endfor %}
 
 </body>
-</html>
-
-  </div>
-  </body>
 </html>

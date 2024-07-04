@@ -1,0 +1,104 @@
+- name: Foreverred Trueskip (Lunar Heart)
+  requirements:
+    - Complete Foreverred's Trueskip route by progressing to the right after opening the chest
+    - Reach True Summit and collect the Lunar Heart without dying
+    - You do not need to collect any other optional collectables
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=gSYM2I1XDic
+- name: Infinite Hall of Pain
+  requirements:
+    - Complete the first room of Infinite Hall of Pain from start to finish without dying
+    - You do not need to complete any other parts of Infinite Hall of Pain, but showing your completion time is preferred
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=5dl-DIgaJ-4
+    - name: Beeb
+      proof_video: https://www.youtube.com/watch?v=5dl-DIgaJ-4
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=XIdwpNOxzpA
+- name: Spikes (From "Tasonleste")
+  requirements:
+    - Complete the room from Tasonleste labeled "Spikes" from start to finish without dying
+    - You do not need to complete any other parts of Tasonleste
+  obtained_by:
+    - name: FlyingPenguin
+      proof_video: https://www.youtube.com/watch?v=70JbwjQ3fmQ
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=v9EMwpgyAbE
+- name: Everred Trueskip (Moon Reddish)
+  requirements:
+    - Complete Everred's Trueskip route by exiting the first room without collecting the Gem
+    - Reach the end of the game without dying
+    - You do not need to collect any optional collectables
+  obtained_by:
+    - name: Akliant
+      proof_video: https://www.youtube.com/watch?v=gAr3Lsi7nl4
+    - name: Meep
+      proof_video: https://youtube.com/watch?v=ts2hrgoD3MU
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=rM4vHgfVU9Q
+- name: Spiral
+  requirements:
+    - Complete the first room of Spiral from start to finish without dying
+    - You do not need to complete any other parts of Spiral, but showing your completion time is preferred
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=ha8smGWFnvM
+- name: Foreverred Gemskip (Golden Heart)
+  requirements:
+    - Complete Foreverred's Gemskip route by collecting the first Gem but skipping the second Gem
+    - Reach the end of the game without dying
+    - You do not need to collect any optional collectables
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=fezcAH3Zj_k
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=7mo6UrYQmBk
+- name: Everred Gemskip (Golden Reddish)
+  requirements:
+    - Complete Everred's Gemskip route by collecting the first Gem but skipping the second Gem
+    - Reach the end of the game without dying
+    - You do not need to collect any optional collectables
+  obtained_by:
+    - name: Gonen
+      proof_video: https://www.youtube.com/watch?v=cYoyAN4gON8
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=ad7fxtvRpqY
+    - name: Akliant
+      proof_video: https://www.youtube.com/watch?v=F4xDZhixdHg
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=QFf5LdA44iI
+- name: UNKNOWN
+  requirements:
+    - Reach the Flag in UNKNOWN from the start without dying
+    - You do not need to complete any other parts of UNKNOWN
+  obtained_by:
+    - name: ChillSpider/Nyl
+      proof_video: https://www.youtube.com/watch?v=KQhCOXFKNMs
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=QhVIY4QQwus
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=kHcGnRnJewM
+- name: Unnerfed S
+  requirements:
+    - Reach the Flag in Unnerfed S from the start without dying
+    - You do not need to complete any other parts of Unnerfed S
+  obtained_by:
+    - name: FlyingPenguin
+      proof_video: https://www.youtube.com/watch?v=NrYDqTzjPNo
+    - name: ChillSpider/Nyl
+      proof_video: https://www.youtube.com/watch?v=VUx9PeJ4ds0
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=DwwTs7noNPQ
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=QhVIY4QQwus
+- name: Farewell (From "CelesteTech Teach" by Rio)
+  requirements:
+    - Complete the room of CelesteTech Teach labelled "Farewell" from start to finish without dying
+    - You do not need to complete any other parts of CelesteTech Teach
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=Ckzgtnwkw6o
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=QhVIY4QQwus
