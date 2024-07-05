@@ -69,6 +69,8 @@
       proof_video: https://www.youtube.com/watch?v=F4xDZhixdHg
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=QFf5LdA44iI
+    - name: TixNoTwix
+      proof_video: https://www.youtube.com/watch?v=8to8D95yGX0
 - name: UNKNOWN
   requirements:
     - Reach the Flag in UNKNOWN from the start without dying
