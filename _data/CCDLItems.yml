@@ -107,7 +107,7 @@
 - name: Scrolleste (Brutal Difficulty)
   requirements:
     - Reach the Flag in Scrolleste from the start of the map
-    - The Flag endscreen must show "Mode: Brutal" in order to verify that you're playing on the correct difficulty
+    - The Flag endscreen must show that you're playing on Brutal difficulty
   obtained_by:
     - name: LordSNEK
       proof_video: https://www.youtube.com/watch?v=4ZaGupgSjes
