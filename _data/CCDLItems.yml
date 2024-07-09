@@ -55,6 +55,15 @@
       proof_video: https://www.youtube.com/watch?v=fezcAH3Zj_k
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=7mo6UrYQmBk
+- name: Precision (From "Tasonleste")
+  requirements:
+    - Complete the room from Tasonleste labeled "Precision" from start to finish without dying
+    - You do not need to complete any other parts of Tasonleste
+  obtained_by:
+    - name: FlyingPenguin
+      proof_video: https://www.youtube.com/watch?v=3a1JjlmMn8A
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=n4ZdGK378p8
 - name: Everred Gemskip (Golden Reddish)
   requirements:
     - Complete Everred's Gemskip route by collecting the first Gem but skipping the second Gem
@@ -95,6 +104,13 @@
       proof_video: https://www.youtube.com/watch?v=DwwTs7noNPQ
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=QhVIY4QQwus
+- name: Scrolleste (Brutal Difficulty)
+  requirements:
+    - Reach the Flag in Scrolleste from the start of the map
+    - The Flag endscreen must show "Mode: Brutal" in order to verify that you're playing on the correct difficulty
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=4ZaGupgSjes
 - name: Farewell (From "CelesteTech Teach" by Rio)
   requirements:
     - Complete the room of CelesteTech Teach labelled "Farewell" from start to finish without dying
