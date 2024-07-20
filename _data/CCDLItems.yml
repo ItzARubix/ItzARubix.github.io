@@ -38,6 +38,13 @@
       proof_video: https://youtube.com/watch?v=ts2hrgoD3MU
     - name: LordSNEK
       proof_video: https://www.youtube.com/watch?v=rM4vHgfVU9Q
+- name: Tech (From "Tasonleste")
+  requirements:
+    - Complete the room from Tasonleste labeled "Tech" from start to finish without dying
+    - You do not need to complete any other parts of Tasonleste
+  obtained_by:
+    - name: FlyingPenguin
+      proof_video: https://www.youtube.com/watch?v=M-b325NyBd4
 - name: Spiral
   requirements:
     - Complete the first room of Spiral from start to finish without dying
