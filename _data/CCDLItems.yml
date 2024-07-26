@@ -17,6 +17,15 @@
       proof_video: https://www.youtube.com/watch?v=5dl-DIgaJ-4
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=XIdwpNOxzpA
+- name: Jank (From "Tasonleste")
+  requirements:
+    - Complete the room from Tasonleste labeled "Jank" from start to finish without dying
+    - You do not need to complete any other parts of Tasonleste
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=q_8uS_LUUqU
+    - name: FlyingPenguin
+      proof_video: https://www.youtube.com/watch?v=KbrA2avjK7Y
 - name: Spikes (From "Tasonleste")
   requirements:
     - Complete the room from Tasonleste labeled "Spikes" from start to finish without dying
