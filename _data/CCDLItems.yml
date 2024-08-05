@@ -54,6 +54,14 @@
   obtained_by:
     - name: FlyingPenguin
       proof_video: https://www.youtube.com/watch?v=M-b325NyBd4
+- name: Celeste Classic Gemskip ABT
+  requirements:
+    - Complete Celeste Classic from start to finish without dying
+    - You must skip the Gem in 2200m
+    - You must collect every balloon twice
+  obtained_by:
+    - name: Merl
+      proof_video: https://www.youtube.com/watch?v=PMZsW5ioD0c
 - name: Spiral
   requirements:
     - Complete the first room of Spiral from start to finish without dying
