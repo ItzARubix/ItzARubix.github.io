@@ -79,6 +79,13 @@
       proof_video: https://www.youtube.com/watch?v=fezcAH3Zj_k
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=7mo6UrYQmBk
+- name: Why Are You Stealing From Ruins?
+  requirements:
+    - Reach the end of the game without dying
+    - You do not need to collect any optional collectables
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=BxSPZHS3WaE
 - name: Precision (From "Tasonleste")
   requirements:
     - Complete the room from Tasonleste labeled "Precision" from start to finish without dying
@@ -135,6 +142,13 @@
   obtained_by:
     - name: LordSNEK
       proof_video: https://www.youtube.com/watch?v=4ZaGupgSjes
+- name: Perisher
+  requirements:
+    - Complete all of Perisher without dying
+    - You do not need to collect any optional collectables
+  obtained_by:
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=FawaKhLYa6g
 - name: Farewell (From "CelesteTech Teach" by Rio)
   requirements:
     - Complete the room of CelesteTech Teach labelled "Farewell" from start to finish without dying
