@@ -56,14 +56,6 @@
   obtained_by:
     - name: FlyingPenguin
       proof_video: https://www.youtube.com/watch?v=M-b325NyBd4
-- name: Celeste Classic Gemskip ABT
-  requirements:
-    - Complete Celeste Classic from start to finish without dying
-    - You must skip the Gem in 2200m
-    - You must collect every balloon twice
-  obtained_by:
-    - name: Merl
-      proof_video: https://www.youtube.com/watch?v=PMZsW5ioD0c
 - name: Spiral
   requirements:
     - Complete the first room of Spiral from start to finish without dying
@@ -137,6 +129,31 @@
       proof_video: https://www.youtube.com/watch?v=DwwTs7noNPQ
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=QhVIY4QQwus
+- name: Celeste Classic Gemskip ABT
+  requirements:
+    - Complete Celeste Classic from start to finish without dying
+    - You must skip the Gem in 2200m
+  obtained_by:
+    - name: Merl
+      proof_video: https://www.youtube.com/watch?v=PMZsW5ioD0c
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=X6nNSVNvAeA
+    - name: Feetballer
+      proof_video: https://www.youtube.com/watch?v=n5Sy3ZCMLuc
+    - name: Gonen
+      proof_video: https://www.youtube.com/watch?v=7YuuNmbRFEY
+    - name: Meep
+      proof_video: https://www.youtube.com/watch?v=WyuZPFvQ87U
+    - name: Vei
+      proof_video: https://www.youtube.com/watch?v=HQmzpR3xPGA
+    - name: Akliant
+      proof_video: https://www.youtube.com/watch?v=zjRQL7zc7no
+    - name: LordSNEK
+      proof_video: https://www.youtube.com/watch?v=r1B5aft53Pw
+    - name: Crep
+      proof_video: https://www.youtube.com/watch?v=2D2H3Sj-b8M
+    - name: GlowyOrange
+      proof_video: https://www.youtube.com/watch?v=mRRQudQWKeo
 - name: Scrolleste (Brutal Difficulty)
   requirements:
     - Reach the Flag in Scrolleste from the start of the map
