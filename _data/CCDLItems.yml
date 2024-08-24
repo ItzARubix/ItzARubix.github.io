@@ -129,7 +129,7 @@
       proof_video: https://www.youtube.com/watch?v=DwwTs7noNPQ
     - name: Bacon
       proof_video: https://www.youtube.com/watch?v=QhVIY4QQwus
-- name: Celeste Classic Gemskip ABT
+- name: Celeste Classic Gemskip
   requirements:
     - Complete Celeste Classic from start to finish without dying
     - You must skip the Gem in 2200m
