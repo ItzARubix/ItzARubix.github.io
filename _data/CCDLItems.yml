@@ -47,6 +47,8 @@
       proof_video: https://youtube.com/watch?v=ts2hrgoD3MU
     - name: LordSNEK
       proof_video: https://www.youtube.com/watch?v=rM4vHgfVU9Q
+    - name: Bacon
+      proof_video: https://www.youtube.com/watch?v=uCVWNpAVCVM
 - name: Tech (From "Tasonleste")
   requirements:
     - Complete the room from Tasonleste labeled "Tech" from start to finish without dying
